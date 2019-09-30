@@ -1,0 +1,108 @@
+GNL BASIC TESTS:\n
+---------------------
+TEST #1: 1 line 8 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl1_1.c):
+OK
+
+---------------------
+TEST #2: 2 lines 8 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl1_2.c):
+OK
+
+---------------------
+TEST #3: 4 lines 8 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl1_3.c):
+OK
+
+---------------------
+TEST #4: STDIN: 1 line 8 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl2_1.c):
+OK
+
+---------------------
+TEST #5: STDIN: 2 lines 8 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl2_2.c):
+OK
+
+---------------------
+TEST #6: STDIN: 4 lines 8 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl2_3.c):
+OK
+
+---------------------
+TEST #7: 1 line 16 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl3_1.c):
+-> must have returned '1' once instead of 2 time(s)
+
+---------------------
+TEST #8: 2 lines 16 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl3_2.c):
+OK
+
+---------------------
+TEST #9: 4 lines 16 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl3_3.c):
+-> must have returned '1' four times instead of 5 time(s)
+
+---------------------
+TEST #10: STDIN: 1 line 16 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl4_1.c):
+OK
+
+---------------------
+TEST #11: STDIN: 2 lines 16 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl4_2.c):
+-> must have read "1234567890abcde" and "fghijklmnopqrst"
+
+---------------------
+TEST #12: STDIN: 4 lines 16 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl4_3.c):
+OK
+
+---------------------
+TEST #13: 1 line 4 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl5_1.c):
+OK
+
+---------------------
+TEST #14: 2 lines 4 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl5_2.c):
+OK
+
+---------------------
+TEST #15: 4 lines 4 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl5_3.c):
+OK
+
+---------------------
+TEST #16: STDIN: 1 line 4 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl6_1.c):
+OK
+
+---------------------
+TEST #17: STDIN: 2 lines 4 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl6_2.c):
+OK
+
+---------------------
+TEST #18: STDIN: 4 lines 4 chars with Line Feed (/nfs/2019/s/sko/42FileChecker/gnl6_3.c):
+OK
+
+---------------------
+TEST #19: 1 lines 8 chars without Line Feed (/nfs/2019/s/sko/42FileChecker/gnl7_1.c):
+OK
+
+---------------------
+TEST #20: 2 lines 8 chars without Line Feed (/nfs/2019/s/sko/42FileChecker/gnl7_2.c):
+OK
+
+---------------------
+TEST #21: 4 lines 8 chars without Line Feed (/nfs/2019/s/sko/42FileChecker/gnl7_3.c):
+OK
+
+---------------------
+TEST #22: STDIN: 1 line 8 chars without Line Feed (/nfs/2019/s/sko/42FileChecker/gnl8_1.c):
+OK
+
+---------------------
+TEST #23: STDIN: 2 lines 8 chars without Line Feed (/nfs/2019/s/sko/42FileChecker/gnl8_2.c):
+OK
+
+---------------------
+TEST #24: STDIN: 4 lines 8 chars without Line Feed (/nfs/2019/s/sko/42FileChecker/gnl8_3.c):
+OK
+
+---------------------
+TEST #25: Bad file descriptor #1 (/nfs/2019/s/sko/42FileChecker/gnl9_1.c):
+OK
+
+---------------------
+TEST #26: Bad file descriptor #2 (/nfs/2019/s/sko/42FileChecker/gnl9_2.c):
+OK
+
+memory leak
+includes/utils/utils_leaks.sh: line 16: 45916 Segmentation fault: 11  ./tmp/gnl10
+
